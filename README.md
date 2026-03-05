@@ -36,4 +36,8 @@ Each entry in the dataset contains:
 
 English Sentence → Hindi Translation
 
+# Example
+Hello → नमस्ते
+How are you → आप कैसे हैं
+
 Example:
