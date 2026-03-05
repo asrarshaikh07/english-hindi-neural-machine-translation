@@ -32,12 +32,11 @@ The primary objectives of this project are:
 The model was trained using an English-Hindi parallel dataset consisting
 of sentence pairs.
 
+# Example
+Hello → नमस्ते 
+
+How are you → आप कैसे हैं
+
 Each entry in the dataset contains:
 
 English Sentence → Hindi Translation
-
-# Example
-Hello → नमस्ते
-How are you → आप कैसे हैं
-
-Example:
