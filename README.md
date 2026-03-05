@@ -41,3 +41,77 @@ English Sentence → Hindi Translation
 Hello → नमस्ते  
 
 How are you → आप कैसे हैं
+
+
+## Model Architecture
+
+The model uses a sequence-to-sequence architecture consisting of:
+
+### Encoder
+Processes the English sentence and converts it into a hidden vector
+representation.
+
+### Decoder
+Generates the Hindi translation word-by-word using the encoded context.
+
+### Attention Mechanism
+Allows the model to focus on important words in the source sentence
+during translation.
+
+---
+
+## Machine Learning Pipeline
+
+The project follows these steps:
+
+1. Text preprocessing
+2. Tokenization
+3. Vocabulary creation
+4. Sequence padding
+5. Encoder-decoder model training
+6. Teacher forcing during training
+7. Model evaluation using BLEU score
+
+---
+
+## Technologies Used
+
+- Python
+- PyTorch
+- NumPy
+- Natural Language Processing (NLP)
+- Jupyter Notebook
+
+---
+
+## Results
+
+The trained model demonstrates the ability to generate context-aware
+Hindi translations from English sentences using neural sequence models.
+
+Although simple compared to large transformer-based models, this project
+illustrates the fundamental concepts behind neural machine translation.
+
+
+---
+
+## Future Improvements
+
+Possible improvements include:
+
+- Implementing Transformer models
+- Training on larger datasets
+- Using pretrained language embeddings
+- Deploying the model as an API or web application
+
+---
+
+## Author
+
+Mohammed Ashrar Shaikh  
+Data Analytics & Machine Learning Enthusiast  
+Mississauga, Ontario, Canada  
+
+LinkedIn: https://linkedin.com/in/asrarshaikh1509
+---
+
