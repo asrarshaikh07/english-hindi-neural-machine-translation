@@ -20,7 +20,7 @@ can be applied to natural language processing tasks.
 The primary objectives of this project are:
 
 - Build a neural machine translation system using deep learning
-- Implement an encoder-decoder architecture for sequence translation
+- Implement an encoder-decoder architecture for sequence translationM
 - Apply attention mechanisms to improve translation quality
 - Train the model using bilingual parallel sentence datasets
 - Evaluate translation quality using BLEU score
@@ -32,11 +32,12 @@ The primary objectives of this project are:
 The model was trained using an English-Hindi parallel dataset consisting
 of sentence pairs.
 
-# Example
-Hello → नमस्ते 
-
-How are you → आप कैसे हैं
-
 Each entry in the dataset contains:
 
 English Sentence → Hindi Translation
+
+# Example 
+
+Hello → नमस्ते  
+
+How are you → आप कैसे हैं
